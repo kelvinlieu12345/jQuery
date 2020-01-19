@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery
+            
+        </title><script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    </head>
+    <style>
+    body{
+        font-size:20px;
+        font-family:arial;
+        background: lightblue;
+    }
+    header{
+        text-align:center;
+        padding:20px;
+        background:black;
+        color:white;
+        
+        
+
+    }
+    #container{
+        padding:20px;
+    }
+   </style>
+    <body>
+        <header>
+            <h1>jQuery test</h1> </header>
+            <div id = "container">
+                <h1 class ='head'>adioja1iosdaodsios</h1>
+                
+                <ul id='list'>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                        <li>List Item</li>
+                </ul>
+            </div>
+       
+        <script>
+            $('.head').hide();
+            $('ul#list li:first').css('color', 'red');
+            $('ul#list li:last').css('color', 'green')
+            $('ul#list li:odd').css('color', 'blue')
+        </script>
+    </body>
+</html>
