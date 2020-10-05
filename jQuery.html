@@ -29,7 +29,7 @@
             <h1>jQuery test</h1> </header>
             <div id = "container">
                 <h1 class ='head'>adioja1iosdaodsios</h1>
-                
+                <button id="btn">button</button>
                 <ul id='list'>
                         <li>List Item</li>
                         <li>List Item</li>
@@ -42,6 +42,10 @@
             $('ul#list li:first').css('color', 'red');
             $('ul#list li:last').css('color', 'green')
             $('ul#list li:odd').css('color', 'blue')
+
+            $('#btn').on('click', function() {
+                alert("Alert");
+            })
         </script>
     </body>
 </html>
